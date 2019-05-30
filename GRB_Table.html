@@ -1,0 +1,864 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ID</th>
+      <th>RA, Dec</th>
+      <th>Swift Date</th>
+      <th>Circular</th>
+      <th>Sector</th>
+      <th>SectorName</th>
+      <th>Camera</th>
+      <th>ccd</th>
+      <th>Difference between TESS sector start date and Swift Obs Date</th>
+      <th>Difference between TESS sector end date and Swift Obs Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>[GRB 190519A:]</td>
+      <td>[RA, Dec 114.764, -38.824, RA, Dec 114.7673]</td>
+      <td>19/05/19 07:46:35 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/24595.gcn3</td>
+      <td>0007 0008</td>
+      <td>tess-s0007-3-1 tess-s0008-3-2</td>
+      <td>3 3</td>
+      <td>1 2</td>
+      <td>131 days, 0:00:00</td>
+      <td>107 days, 0:00:00</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>[GRB 190515B:]</td>
+      <td>[RA, Dec 98.840, +52.295, RA, Dec 98.84892, 52...</td>
+      <td>19/05/15 16:17:18 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/24553.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>[GRB 190512A:]</td>
+      <td>[RA, Dec 82.440, -7.574]</td>
+      <td>19/05/12 14:51:17 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/24501.gcn3</td>
+      <td>0006</td>
+      <td>tess-s0006-2-4</td>
+      <td>2</td>
+      <td>4</td>
+      <td>151 days, 0:00:00</td>
+      <td>126 days, 0:00:00</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>[GRB 190511A:]</td>
+      <td>[RA, Dec 126.436, -20.242, RA, Dec 126.44482, ...</td>
+      <td>19/05/11 07:42:00 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/24472.gcn3</td>
+      <td>0007 0008</td>
+      <td>tess-s0007-2-3 tess-s0008-2-4</td>
+      <td>2 2</td>
+      <td>3 4</td>
+      <td>123 days, 0:00:00</td>
+      <td>99 days, 0:00:00</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>[GRB 190427A:]</td>
+      <td>[RA, Dec 280.213, +40.322]</td>
+      <td>19/04/27 04:43:39 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/24261.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>[GRB 190424A:]</td>
+      <td>[RA, Dec 48.681, +20.233]</td>
+      <td>19/04/24 10:13:57 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/24163.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>[GRB 190422A:]</td>
+      <td>[RA, Dec 182.124, -60.238, RA, Dec 182.03650, ...</td>
+      <td>19/04/22 23:15:41 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/24147.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>[GRB 190409A:]</td>
+      <td>[RA, Dec 324.921, -46.607]</td>
+      <td>19/04/09 14:16:59 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/24081.gcn3</td>
+      <td>0001</td>
+      <td>tess-s0001-2-4</td>
+      <td>2</td>
+      <td>4</td>
+      <td>258 days, 0:00:00</td>
+      <td>230 days, 0:00:00</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>[GRB 190331A:]</td>
+      <td>[RA, Dec 28.576, +27.619]</td>
+      <td>19/03/31 02:42:45 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/24046.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>[GRB 190326A:]</td>
+      <td>[RA, Dec 341.652, +39.903]</td>
+      <td>19/03/26 07:48:18 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/24027.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>[GRB 190324A:]</td>
+      <td>[RA, Dec 49.576, -47.239]</td>
+      <td>19/03/24 23:01:38 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/24009.gcn3</td>
+      <td>0003 0004</td>
+      <td>tess-s0003-3-1 tess-s0004-3-2</td>
+      <td>3 3</td>
+      <td>1 2</td>
+      <td>185 days, 0:00:00</td>
+      <td>158 days, 0:00:00</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>[GRB 190320A:]</td>
+      <td>[RA, Dec 117.811, -45.890]</td>
+      <td>19/03/20 01:47:01 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23993.gcn3</td>
+      <td>0008</td>
+      <td>tess-s0008-3-2</td>
+      <td>3</td>
+      <td>2</td>
+      <td>46 days, 0:00:00</td>
+      <td>21 days, 0:00:00</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>[GRB 190311A:]</td>
+      <td>[RA, Dec 212.102, +53.519]</td>
+      <td>19/03/11 14:43:26 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23989.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>[GRB 190220A:]</td>
+      <td>[RA, Dec 330.142, -76.691, RA, Dec 330.16325]</td>
+      <td>19/02/20 03:14:43 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23973.gcn3</td>
+      <td>0001</td>
+      <td>tess-s0001-3-2</td>
+      <td>3</td>
+      <td>2</td>
+      <td>210 days, 0:00:00</td>
+      <td>182 days, 0:00:00</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>[GRB 190219A:]</td>
+      <td>[RA, Dec 189.757, +76.614, RA, Dec 189.62442]</td>
+      <td>19/02/19 19:53:25 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23946.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>[GRB 190211A:]</td>
+      <td>[RA, Dec 196.675, +41.966, RA, Dec 196.65896, ...</td>
+      <td>19/02/11 17:13:07 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23928.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>[GRB 190204A:]</td>
+      <td>[RA, Dec 351.514, +54.878, RA, Dec 351.47755, ...</td>
+      <td>19/02/04 06:12:47 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23908.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>[GRB 190203A:]</td>
+      <td>[RA, Dec 22.577, +55.738, RA, Dec 22.5984, 55....</td>
+      <td>19/02/03 15:57:07 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23902.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>[GRB 190202A:]</td>
+      <td>[RA, Dec 166.512, +9.388, RA, Dec 166.5026, 9....</td>
+      <td>19/02/02 01:58:11 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23900.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>[GRB 190123A:]</td>
+      <td>[RA, Dec 53.229, +45.484, RA, Dec 53.22071, 45...</td>
+      <td>19/01/23 12:32:59 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23883.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>[GRB 190114C:]</td>
+      <td>[RA, Dec 54.510, -26.939, RA, Dec 54.5068, -26...</td>
+      <td>19/01/14 21:17:08 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23882.gcn3</td>
+      <td>0004</td>
+      <td>tess-s0004-2-2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>87 days, 0:00:00</td>
+      <td>61 days, 0:00:00</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>[GRB 190114B:]</td>
+      <td>[RA, Dec 174.883, +18.877, RA, Dec 174.87349, ...</td>
+      <td>19/01/14 19:48:11 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23852.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>[GRB 190114A:]</td>
+      <td>[RA, Dec 65.544, +2.170, RA, Dec 65.54341, 2.1...</td>
+      <td>19/01/14 03:25:02 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23849.gcn3</td>
+      <td>0005</td>
+      <td>tess-s0005-1-1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>60 days, 0:00:00</td>
+      <td>34 days, 0:00:00</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>[GRB 190110A:]</td>
+      <td>[RA, Dec 276.882, -53.676]</td>
+      <td>19/01/10 17:34:23 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23845.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>[GRB 190109B:]</td>
+      <td>[RA, Dec 55.595, +63.578]</td>
+      <td>19/01/09 12:18:35 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23830.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>[GRB 190109A:]</td>
+      <td>[RA, Dec 33.218, +38.110, RA, Dec 33.20430, 38...</td>
+      <td>19/01/09 05:25:13 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23803.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>[GRB 190106A:]</td>
+      <td>[RA, Dec 29.886, +23.857, RA, Dec 29.87964, 23...</td>
+      <td>19/01/06 13:45:24 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23800.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>[GRB 190103B:]</td>
+      <td>[RA, Dec 212.574, +35.261, RA, Dec 212.5695, 3...</td>
+      <td>19/01/03 21:14:34 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23795.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>[GRB 181228A:]</td>
+      <td>[RA, Dec 49.831, +13.195, RA, Dec 49.8114]</td>
+      <td>18/12/28 03:07:38 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23776.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>[GRB 181224A:]</td>
+      <td>[RA, Dec 125.931, +6.206]</td>
+      <td>18/12/24 13:47:41 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23769.gcn3</td>
+      <td>0007</td>
+      <td>tess-s0007-1-3</td>
+      <td>1</td>
+      <td>3</td>
+      <td>-15 days, 0:00:00</td>
+      <td>-39 days, 0:00:00</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>[GRB 181213A:]</td>
+      <td>[RA, Dec 248.207, +78.504]</td>
+      <td>18/12/13 13:08:00 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23763.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>[GRB 181203A:]</td>
+      <td>[RA, Dec 108.369, -39.769, RA, Dec 108.3491, -...</td>
+      <td>18/12/03 12:23:43 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23688.gcn3</td>
+      <td>0007 0008</td>
+      <td>tess-s0007-3-1 tess-s0008-3-2</td>
+      <td>3 3</td>
+      <td>1 2</td>
+      <td>-36 days, 0:00:00</td>
+      <td>-60 days, 0:00:00</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>[GRB 181202A:]</td>
+      <td>[RA, Dec 280.745, +27.951, RA, Dec 280.73563, ...</td>
+      <td>18/12/02 06:48:16 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23686.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>[GRB 181126A:]</td>
+      <td>[RA, Dec 152.351, -29.679, RA, Dec 152.34775, ...</td>
+      <td>18/11/26 10:05:09 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23677.gcn3</td>
+      <td>0009</td>
+      <td>tess-s0009-2-4</td>
+      <td>2</td>
+      <td>4</td>
+      <td>-94 days, 0:00:00</td>
+      <td>-119 days, 0:00:00</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>[GRB 181125A:]</td>
+      <td>[RA, Dec 268.413, -2.613]</td>
+      <td>18/11/25 09:07:44 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23670.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>[GRB 181123B:]</td>
+      <td>[RA, Dec 184.348, +14.589, RA, Dec 184.36663, ...</td>
+      <td>18/11/23 05:48:16 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23648.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>[GRB 181123A:]</td>
+      <td>[RA, Dec 284.651, -8.237]</td>
+      <td>18/11/23 04:30:51 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23642.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>[GRB 181110A:]</td>
+      <td>[RA, Dec 302.342, -36.903, RA, Dec 302.31711, ...</td>
+      <td>18/11/10 08:59:09 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23639.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>[GRB 181103A:]</td>
+      <td>[RA, Dec 197.109, +52.230, RA, Dec 197.1161]</td>
+      <td>18/11/03 04:58:42 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23615.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>[GRB 181030A:]</td>
+      <td>[RA, Dec 146.922, +14.658, RA, Dec 146.9251, 1...</td>
+      <td>18/10/30 01:50:20 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23602.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>[GRB 181027A:]</td>
+      <td>[RA, Dec 225.383, +30.891]</td>
+      <td>18/10/27 01:57:37 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23570.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>[GRB 181023A:]</td>
+      <td>[RA, Dec 248.329, +19.564, RA, Dec 248.32979, ...</td>
+      <td>18/10/23 02:21:45 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23554.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>[GRB 181022A:]</td>
+      <td>[RA, Dec 56.795, -29.332, RA, Dec 56.7920]</td>
+      <td>18/10/22 17:53:32 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23550.gcn3</td>
+      <td>0004</td>
+      <td>tess-s0004-2-2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>3 days, 0:00:00</td>
+      <td>-23 days, 0:00:00</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>[GRB 181020A:]</td>
+      <td>[RA, Dec 13.967, -47.380, RA, Dec 13.9837, -47...</td>
+      <td>18/10/20 19:19:43 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23525.gcn3</td>
+      <td>0002</td>
+      <td>tess-s0002-2-2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>58 days, 0:00:00</td>
+      <td>30 days, 0:00:00</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>[GRB 181016A:]</td>
+      <td>[RA, Dec 231.268, -35.279]</td>
+      <td>18/10/16 01:07:47 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23493.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>[GRB 181013A:]</td>
+      <td>[RA, Dec 207.601, +40.179]</td>
+      <td>18/10/13 03:16:19 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23482.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>[GRB 181010A:]</td>
+      <td>[RA, Dec 52.557, -23.035, RA, Dec 52.56984, -2...</td>
+      <td>18/10/10 06:07:32 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23453.gcn3</td>
+      <td>0004</td>
+      <td>tess-s0004-2-3</td>
+      <td>2</td>
+      <td>3</td>
+      <td>-9 days, 0:00:00</td>
+      <td>-35 days, 0:00:00</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>[GRB 181003A:]</td>
+      <td>[RA, Dec 52.569, -34.023]</td>
+      <td>18/10/03 05:25:47 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23448.gcn3</td>
+      <td>0004</td>
+      <td>tess-s0004-2-1</td>
+      <td>2</td>
+      <td>1</td>
+      <td>-16 days, 0:00:00</td>
+      <td>-42 days, 0:00:00</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>[GRB 181002A:]</td>
+      <td>[RA, Dec 64.736, +15.233]</td>
+      <td>18/10/02 11:41:28 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23432.gcn3</td>
+      <td>0005</td>
+      <td>tess-s0005-1-4</td>
+      <td>1</td>
+      <td>4</td>
+      <td>-44 days, 0:00:00</td>
+      <td>-70 days, 0:00:00</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>[GRB 180930A:]</td>
+      <td>[RA, Dec 76.870, -25.138, RA, Dec 76.86228, -2...</td>
+      <td>18/09/30 12:57:20 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23431.gcn3</td>
+      <td>0005</td>
+      <td>tess-s0005-2-2</td>
+      <td>2</td>
+      <td>2</td>
+      <td>-46 days, 0:00:00</td>
+      <td>-72 days, 0:00:00</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>[GRB 180925A:]</td>
+      <td>[RA, Dec 315.213, -64.443, RA, Dec 315.20546, ...</td>
+      <td>18/09/25 14:51:09 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23413.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>[GRB 180924A:]</td>
+      <td>[RA, Dec 49.161, -58.505]</td>
+      <td>18/09/24 15:39:23 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23402.gcn3</td>
+      <td>0002 0003</td>
+      <td>tess-s0002-3-4 tess-s0003-3-3</td>
+      <td>3 3</td>
+      <td>4 3</td>
+      <td>32 days, 0:00:00</td>
+      <td>4 days, 0:00:00</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>[GRB 180905A:]</td>
+      <td>[RA, Dec 91.035, -4.591, RA, Dec 91.0602, -4.5...</td>
+      <td>18/09/05 14:07:32 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23389.gcn3</td>
+      <td>0006</td>
+      <td>tess-s0006-1-1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>-98 days, 0:00:00</td>
+      <td>-123 days, 0:00:00</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>[GRB 180904A:]</td>
+      <td>[RA, Dec 274.250, +46.623, RA, Dec 274.2495]</td>
+      <td>18/09/04 21:42:57 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23383.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>[GRB 180828A:]</td>
+      <td>[RA, Dec 268.700, -25.800, RA, Dec 268.7184, -...</td>
+      <td>18/08/28 19:27:00 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23366.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>[GRB 180823A:]</td>
+      <td>[RA, Dec 210.349, +14.884, RA, Dec 210.35630, ...</td>
+      <td>18/08/23 19:31:39 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23364.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>[GRB 180821A:]</td>
+      <td>[RA, Dec 7.763, -38.619, RA, Dec 7.78833, -38....</td>
+      <td>18/08/21 16:53:28 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23349.gcn3</td>
+      <td>0002</td>
+      <td>tess-s0002-2-3</td>
+      <td>2</td>
+      <td>3</td>
+      <td>-2 days, 0:00:00</td>
+      <td>-30 days, 0:00:00</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>[GRB 180818B:]</td>
+      <td>[RA, Dec 104.235, +39.329, RA, Dec 104.22468, ...</td>
+      <td>18/08/18 12:44:59 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23344.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>[GRB 180818A:]</td>
+      <td>[RA, Dec 169.611, -48.344]</td>
+      <td>18/08/18 03:25:43 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23342.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>[GRB 180812A:]</td>
+      <td>[RA, Dec 245.886, +74.670, RA, Dec 245.8360, 7...</td>
+      <td>18/08/12 08:37:38 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23337.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>[GRB 180809B:]</td>
+      <td>[RA, Dec 299.712, -15.302]</td>
+      <td>18/08/09 20:40:30 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23332.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>61</th>
+      <td>[GRB 180805B:]</td>
+      <td>[RA, Dec 25.813, -17.503]</td>
+      <td>18/08/05 13:18:15 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23309.gcn3</td>
+      <td>0003</td>
+      <td>tess-s0003-1-2</td>
+      <td>1</td>
+      <td>2</td>
+      <td>-46 days, 0:00:00</td>
+      <td>-73 days, 0:00:00</td>
+    </tr>
+    <tr>
+      <th>62</th>
+      <td>[GRB 180805A:]</td>
+      <td>[RA, Dec 167.530, -45.331, RA, Dec 167.5646, -...</td>
+      <td>18/08/05 09:23:39 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23295.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>63</th>
+      <td>[GRB 180728A:]</td>
+      <td>[RA, Dec 253.569, -54.031]</td>
+      <td>18/07/28 17:38:09 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23290.gcn3</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>N/A</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>[GRB 180727A:]</td>
+      <td>[RA, Dec 346.66536, -63.05052]</td>
+      <td>18/07/27 14:58:03 GMT</td>
+      <td>https://gcn.gsfc.nasa.gov/gcn3/23289.gcn3</td>
+      <td>0001</td>
+      <td>tess-s0001-2-1</td>
+      <td>2</td>
+      <td>1</td>
+      <td>2 days, 0:00:00</td>
+      <td>-26 days, 0:00:00</td>
+    </tr>
+  </tbody>
+</table>
